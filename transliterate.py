@@ -1394,12 +1394,14 @@ def to_latin(text):
 
 
 def transliterate(text, to_variant):
+    """Tarjima"""
     if to_variant == 'cyrillic':
         text = to_cyrillic(text)
     elif to_variant == 'latin':
         text = to_latin(text)
 
     return text
+
 
 if __name__ == "__main__":
     """cat input_in_lat.txt | python transliterate.py > output_in_cyr.txt"""

@@ -1,7 +1,10 @@
+"""Bot"""
+
+
 import telebot
 from transliterate import to_cyrillic, to_latin
 
-TOKEN = "6225450028:AAFr5pfnBOtUibQmPXe6pp6diNvvUb1qMbM"
+TOKEN = "5770895859:AAENiYD1YX9xE2v0FtGPDat97YkA-Fd4Nss"
 bot = telebot.TeleBot(token=TOKEN)
 
 
